@@ -18,7 +18,7 @@ namespace RMLS_WS.Models
 
         public Measurement(string measurementID, string positionID, string equipmentType, int azimuth, double rssi1, double rssi2, double rssi3, double rssi4)
         {
-            this.MeasurementID = MeasurementID;
+            this.MeasurementID = measurementID;
             this.PositionID = positionID;
             this.EquipmentType = equipmentType;
             this.Azimuth = azimuth;
