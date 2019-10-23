@@ -8,21 +8,32 @@ namespace RMLS_WS.Controllers
 {
     public class MeasurementsController : ApiController
     {
-        // GET: api/Measurements
-        public List<Measurement> Get(int? id = null)
+        [Route("~/api/Measurements/{pos:int}/measurements")]
+        public List<Measurement> GetMeasurementsByPosID(int pos)
         {
             List<Measurement> measurementsList = new List<Measurement>();
 
             MeasurementPersistence mp = new MeasurementPersistence();
-            if (id != null)
+            if (pos != null)
             {
-                string posID = string.Format("pos{0}", id);
+                string posID = string.Format("pos{0}", pos);
                 measurementsList = mp.GetAllMeasuresByPosID(posID);
             }
             else
             {
                 measurementsList = mp.GetAllMeasures();
             }
+
+            return measurementsList;
+        }
+
+        // GET: api/Measurements
+        public List<Measurement> Get()
+        {
+            List<Measurement> measurementsList = new List<Measurement>();
+
+            MeasurementPersistence mp = new MeasurementPersistence();
+            measurementsList = mp.GetAllMeasures();
 
             return measurementsList;
         }

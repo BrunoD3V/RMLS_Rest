@@ -15,32 +15,41 @@ namespace RMLS_WS.Persistense
             connector = new DBConnector();
         }
 
-        //GET METHOD
-        public List<EnvironmentConstant> GetEnvironmentConstantByEquipType(string equiptType)
+
+        //GET ALL ENVIRONMENT CONSTANTS
+        public List<EnvironmentConstant> GetAllEnvironmentConstants()
         {
-            List<EnvironmentConstant> res = new List<EnvironmentConstant>();
+            List<EnvironmentConstant> environmentConstantList = new List<EnvironmentConstant>();
 
             MySql.Data.MySqlClient.MySqlDataReader mySqlDataReader = null;
 
-            string sqlString = "SELECT * FROM constants WHERE equipType='" + equiptType + "'";
+            string sqlString = "SELECT * FROM EnvironmentConstants";
 
             MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand(sqlString, connector.conn);
             mySqlDataReader = cmd.ExecuteReader();
 
-            if (mySqlDataReader.Read())
+            while (mySqlDataReader.Read())
             {
-                //res.EquipType = mySqlDataReader.GetString(1);
-                //res.A = mySqlDataReader.GetDouble(2);
-                //res.N = mySqlDataReader.GetDouble(3);
+                EnvironmentConstant res = new EnvironmentConstant();
 
-                return res;
+                res.ConstantID = mySqlDataReader.GetInt32(0);
+                res.A = mySqlDataReader.GetDouble(1);
+                res.N = mySqlDataReader.GetDouble(2);
+
+                environmentConstantList.Add(res);
             }
-            else
-            {
-                return null;
-            }
+
+            return environmentConstantList;
         }
 
-        //PUT METHOD
+        //POST METHOD
+        public void InsertEnvironmentConstant(EnvironmentConstant ev)
+        {
+            string queryString = string.Format("INSERT INTO environmentconstants VALUES({0}, '{1}', {2})",
+                ev.ConstantID, ev.A, ev.N);
+
+            MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand(queryString, connector.conn);
+            cmd.ExecuteNonQuery();
+        }
     }
 }

@@ -82,7 +82,7 @@ namespace RMLS_WS
 
             MySql.Data.MySqlClient.MySqlDataReader mySqlDataReader = null;
 
-            string sqlString = "SELECT * FROM measurements WHERE measurement_ID='" + id + "'";
+            string sqlString = "SELECT * FROM measurements WHERE pos_ID='" + id + "'";
 
             MySql.Data.MySqlClient.MySqlCommand cmd = new MySql.Data.MySqlClient.MySqlCommand(sqlString, connector.conn);
             mySqlDataReader = cmd.ExecuteReader();

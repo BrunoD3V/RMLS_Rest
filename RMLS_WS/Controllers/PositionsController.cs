@@ -12,9 +12,14 @@ namespace RMLS_WS.Controllers
     public class PositionsController : ApiController
     {
         // GET: api/Positions
-        public IEnumerable<string> Get()
+        public List<Position> Get()
         {
-            return new string[] { "value1", "value2" };
+            List<Position> positionsList = new List<Position>();
+
+            PositionsPersistence pp = new PositionsPersistence();
+            positionsList = pp.GetAllPositions();
+
+            return positionsList;
         }
 
         // GET: api/Positions/5
@@ -30,8 +35,16 @@ namespace RMLS_WS.Controllers
         }
 
         // POST: api/Positions
-        public void Post([FromBody]string value)
+        public string Post([FromBody]Position position)
         {
+            string result = string.Empty;
+
+            PositionsPersistence pp = new PositionsPersistence();
+
+            if (position != null)
+               result = pp.InsertPosition(position);
+
+            return result;
         }
 
         // PUT: api/Positions/5

@@ -67,6 +67,12 @@ C:\Users\Bruno\source\repos\RMLS_WS\RMLS_WS\obj\Debug\RMLS_WS.pdb
 C:\Users\Bruno\source\repos\RMLS_WS\RMLS_WS\bin\MySql.Data.dll
 C:\Users\Bruno\source\repos\RMLS_WS\RMLS_WS\bin\Google.Protobuf.dll
 C:\Users\Bruno\source\repos\RMLS_WS\RMLS_WS\bin\MySql.Data.xml
+D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\System.IO.Compression.dll
+D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\VBCSCompiler.exe
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\RMLS_WS.dll.config
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\RMLS_WS.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\RMLS_WS.pdb
@@ -77,13 +83,9 @@ D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\csi.exe
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\csi.exe.config
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\csi.rsp
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.VisualBasic.Core.targets
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.Win32.Primitives.dll
@@ -93,7 +95,6 @@ D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\System.Console.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\System.Diagnostics.Process.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\System.IO.Compression.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\System.IO.FileSystem.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\System.IO.FileSystem.Primitives.dll
@@ -116,7 +117,6 @@ D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\System.Xml.XPath.XDocument.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\vbc.exe
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\vbc.exe.config
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\vbc.rsp
-D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\VBCSCompiler.exe
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\roslyn\VBCSCompiler.exe.config
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\bin\MySql.Data.dll
@@ -136,3 +136,71 @@ D:\Final Project\VS\RMLS_Rest\RMLS_WS\obj\Debug\RMLS_WS.csproj.CoreCompileInputs
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\obj\Debug\RMLS_WS.csproj.CopyComplete
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\obj\Debug\RMLS_WS.dll
 D:\Final Project\VS\RMLS_Rest\RMLS_WS\obj\Debug\RMLS_WS.pdb
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\RMLS_WS.dll.config
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\RMLS_WS.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\RMLS_WS.pdb
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\csc.exe
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\csc.exe.config
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\csc.rsp
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\csi.exe
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\csi.exe.config
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\csi.rsp
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.AppContext.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Console.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.IO.Compression.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Security.Claims.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Threading.Thread.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.ValueTuple.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\vbc.exe
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\vbc.exe.config
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\vbc.rsp
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\VBCSCompiler.exe
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\Newtonsoft.Json.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\System.Net.Http.Formatting.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\System.Web.Http.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\System.Web.Http.WebHost.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\Google.Protobuf.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\MySql.Data.xml
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\Newtonsoft.Json.xml
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\System.Net.Http.Formatting.xml
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\System.Web.Http.xml
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\bin\System.Web.Http.WebHost.xml
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\obj\Debug\RMLS_WS.csprojAssemblyReference.cache
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\obj\Debug\RMLS_WS.csproj.CoreCompileInputs.cache
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\obj\Debug\RMLS_WS.csproj.CopyComplete
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\obj\Debug\RMLS_WS.dll
+C:\Users\pedro.PC-BELCHIOR\Documents\Visual Studio 2017\VSProjects\RMLS_Rest\RMLS_WS\obj\Debug\RMLS_WS.pdb

@@ -8,16 +8,10 @@ namespace RMLS_WS.Controllers
     public class EnvironmentConstantsController : ApiController
     {
         // GET: api/EnvironmentConstants
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET: api/EnvironmentConstants/5
-        public List<EnvironmentConstant> Get(string equipType)
+        public List<EnvironmentConstant> Get()
         {
             EnvironmentConstantsPersistence ep = new EnvironmentConstantsPersistence();
-            List<EnvironmentConstant> ec = ep.GetEnvironmentConstantByEquipType(equipType);
+            List<EnvironmentConstant> ec = ep.GetAllEnvironmentConstants();
             
             if (ec.Count > 0)
                 return ec;
@@ -26,18 +20,11 @@ namespace RMLS_WS.Controllers
         }
 
         // POST: api/EnvironmentConstants
-        public void Post([FromBody]string value)
+        public void Post([FromBody] EnvironmentConstant value)
         {
-        }
-
-        // PUT: api/EnvironmentConstants/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE: api/EnvironmentConstants/5
-        public void Delete(int id)
-        {
+            EnvironmentConstantsPersistence evp = new EnvironmentConstantsPersistence();
+            if (value != null)
+                evp.InsertEnvironmentConstant(value);
         }
     }
 }

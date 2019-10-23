@@ -89,23 +89,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccessPointController.cs" />
     <Compile Include="Controllers\EnvironmentConstantsController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\MeasurementsController.cs" />
     <Compile Include="Controllers\PositionsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AccessPoint.cs" />
     <Compile Include="Models\EnvironmentConstant.cs" />
+    <Compile Include="Models\Error.cs" />
     <Compile Include="Models\Position.cs" />
     <Compile Include="Persistense\DBConnector.cs" />
+    <Compile Include="Persistense\AccessPointPersistence.cs" />
     <Compile Include="Persistense\EnvironmentConstantsPersistence.cs" />
+    <Compile Include="Persistense\ErrorPersistence.cs" />
     <Compile Include="Persistense\MeasurementPersistence.cs" />
     <Compile Include="Models\Measurement.cs" />
     <Compile Include="Persistense\PositionsPersistence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -21,7 +21,7 @@ namespace RMLS_WS.Persistense
             }
             catch (MySql.Data.MySqlClient.MySqlException ex)
             {
-
+                
             }
         }
     }
